@@ -1,0 +1,44 @@
+/*paleta de colores*/
+.color1 {color: #ff0075;}
+.color2 {color: #ff8338;}
+.color3 {color: #ffd54a;}
+.color4 {color: #ffff9e;}
+.color5 {color: #edffeb;}
+
+body{
+    background-color: #ffd54a;
+    color: #f00472;
+}
+.wiki-link{
+    color: #aa165b;
+}
+.wiki-link:hover{
+    color: #eb9ec2;
+}
+p,h1,h3{
+    text-align: center;
+}
+h1,h3{
+    font-family: 'Rubik Dirt', cursive;
+    margin: 40px auto 5px auto;
+    font-weight: lighter;
+}
+h1{
+    font-size: 3rem;
+}
+h3,p{
+    font-size: 1.2rem;
+}
+figure{
+    background-color: #f7e5ab;
+    padding: 10px;
+}
+p,ul{
+    font-family: 'Nunito', sans-serif;
+}
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
