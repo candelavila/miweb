@@ -5,16 +5,23 @@
 .color4 {color: #ffff9e;}
 .color5 {color: #edffeb;}
 
+/*etiquetas por elementos*/
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #ffd54a;
     color: #f00472;
 }
-.wiki-link{
-    color: #aa165b;
+section{
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
-.wiki-link:hover{
-    color: #eb9ec2;
+
+footer{
+    margin-top: 30px;
 }
+
 p,h1,h3{
     text-align: center;
 }
@@ -24,21 +31,99 @@ h1,h3{
     font-weight: lighter;
 }
 h1{
-    font-size: 3rem;
+    font-size: 4rem;
 }
-h3,p{
+h3{
+    font-size: 2rem;
+}
+p{
     font-size: 1.2rem;
 }
+
 figure{
-    background-color: #f7e5ab;
+    background-color: #ffff9e;
     padding: 10px;
-}
-p,ul{
-    font-family: 'Nunito', sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 ul{
     max-width: 550px;
-    margin: 0 auto 50px auto;
+    margin-top: 30px;
+    margin-bottom: 20px;;
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
     line-height: 1.6;
+}
+
+/*etiquetas por clase*/
+.divider{
+    border-bottom: 1px solid #bb2068;
+    margin: 5px 150px;
+}
+.tribute-link{
+    color: #aa165b;
+}
+.tribute-link:hover{
+    color: #27171e;
+}
+.tribute-text,.tribute-li{
+    font-family: 'Nunito', sans-serif;
+}
+.tribute-li{
+    background-color: #d2f7ce;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px auto 30px auto;
+}
+.iconic-moments-gallery {
+    display: flex; /*flexbox para que sea responsive*/
+    flex-direction: row; /* que los elementos se alinean horizontalmente*/
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin-top: 30px;
+}
+.iconic-moments-gallery::after {
+    content: "";
+    width: 350px;
+}
+.iconic-moments-gallery .iconic-moment {
+    max-width: 350px;
+    height: 450px;
+    border-radius: 9.5px;
+    padding: 35px 10px 10px;
+    max-width: 850px;
+    background-color: #e1f0d8;
+}
+.iconic-moments-gallery .iconic-ph {
+    max-width: 350px;
+    height: 350px;
+    width: 100%; /*ocupa todo el ancho de su contenedor*/
+    object-fit: contain;
+    background-color: #2c2727;
+    border: inset #8a9687;
+}
+.polaroid-text{
+    max-width: 350px;
+}
+.text{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    font-family: 'Caveat Brush', cursive;
+    color:black;
+}
+
+/*etiquetas por id*/
+#image{
+    display:block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
 }

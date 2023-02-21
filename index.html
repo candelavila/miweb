@@ -3,7 +3,7 @@
   <head>
     <title>Tributo a Bandana</title>
     <meta charset="UTF-8">
-
+    
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
 
@@ -12,32 +12,87 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
   </head>
   <body>
     <main id="main">
       <h1 id="title">Bandana</h1>
-      <p>La girlband más conocida de América Latina</p>
+      <p class="tribute-text">La girlband más conocida de América Latina</p>
       <figure id="img-div">
         <img id="image" src="bandana-img.jfif" alt="Bandana posando para la tapa de una revista">
-        <figcaption id="img-caption">Bandana para la revista StarMagazine (de izquierda a derecha): Lourdes Fernández, Valeria Gastaldi, Lissa Vera, Ivonne Guzmán y Virginia da Cunha.
+        <figcaption id="img-caption" class="tribute-text">Bandana para la revista StarMagazine (de izquierda a derecha): Lourdes Fernández, Valeria Gastaldi, Lissa Vera, Ivonne Guzmán y Virginia da Cunha.
         </figcaption>
       </figure>
+
       <section id="tribute-info">
-        <h3 id="headline">Linea temporal de Bandana:</h3>
-            <ul>
-                <li><strong>2001</strong> - PopStar lanza una audición en Buenos Aires en busca de jóvenes que integren una girlband. Las chicas pasan los castings y se crea Bandana.</li>
-                <li><strong>2002</strong> - Lanza su primer álbum, "Bandana", el cual rompe récords en todo el mundo.</li>
-                <li><strong>2003</strong> - Protagonizan la película "Vivir intentando".</li>
-                <li><strong>2004</strong> - Ganan su primer Grammy a mejor canción por "Muero de amor".</li>
-                <li><strong>2006</strong> - Lourdes sufre un accidente con un helado de frutos del bosque que la lleva a una operación de garganta muy riesgosa. La girlband toma un receso.</li>
-                <li><strong>2007</strong> - Vuelve del receso, pero surgen rumores de querer echar a Virginia, los cuales terminan siendo ciertos. Más tarde Ivonne también deja el grupo para ser cantante de una orquesta.</li>
-                <li><strong>2008</strong> - La banda se disuelve completamente.</li>
+        <h3 id="headline">Línea temporal de Bandana</h3>
+            <div class="tribute-time-line">
+              <ul>
+                <li class="tribute-li"><strong>2001</strong> - PopStar lanza una audición en Buenos Aires en busca de jóvenes que integren una girlband. Las chicas pasan los castings y se crea Bandana.</li>
+                <li class="tribute-li"><strong>2002</strong> - Lanza su primer álbum, "Bandana", el cual rompe récords en todo el mundo.</li>
+                <li class="tribute-li"><strong>2003</strong> - Protagonizan la película <a href="https://www.youtube.com/watch?v=7p4ihhuqt9Q&ab_channel=MartinMonsalve" target="_blank" class="tribute-link">"Vivir intentando"</a>.</li>
+                <li class="tribute-li"><strong>2004</strong> - Ganan su primer Grammy a mejor canción por <a href="https://www.youtube.com/watch?v=QxIfKVnTb_s" target="_blank" class="tribute-link">"Muero de amor"</a>.</li>
+                <li class="tribute-li"><strong>2006</strong> - Lourdes sufre un accidente con un helado de frutos del bosque que la lleva a una operación de garganta muy riesgosa. La girlband toma un receso.</li>
+                <li class="tribute-li"><strong>2007</strong> - Vuelve del receso, pero surgen rumores de querer echar a Virginia, los cuales terminan siendo ciertos. Más tarde Ivonne también deja el grupo para ser cantante de una orquesta.</li>
+                <li class="tribute-li"><strong>2008</strong> - La banda se disuelve completamente.</li>
             </ul>
+            </div>
        </section>
+
+       <div class="divider"></div>
+
+       <section id="tribute-iconic-moments">
+        <h3 id="title-gallery">Galería de momentos icónicos</h3>
+          <div class="iconic-moments-gallery">
+            <div class="iconic-moment">
+              <img class="iconic-ph" src="bandana-seleccionadas.jpg" alt="las chicas de Bandana son seleccionadas">
+              <!---->
+              <div class="polaroid-text">
+                <p class="text">Las integrantes de la banda son seleccionadas</p>
+              </div>
+            </div>
+            <div class="iconic-moment">
+              <img class="iconic-ph" src="lanzamiento-disco.jfif" alt="tapa del primer disco de Bandana">
+              <!---->
+              <div class="polaroid-text">
+                <p class="text">Su primer disco "Bandana" rompe récords en ventas</p>
+              </div>
+            </div>
+            <div class="iconic-moment">
+              <img class="iconic-ph" src="hospitalizada.jfif" alt="imagen ficticia de Lowrdes hospitalizada">
+              <!---->
+              <div class="polaroid-text">
+                <p class="text">Lourdes hospitalizada por la operación de garganta</p>
+              </div>
+            </div>
+            <div class="iconic-moment">
+              <img class="iconic-ph" src="bandana-granrex.png" alt="Bandana yendo a presentarse al Gran Rex">
+              <!---->
+              <div class="polaroid-text">
+                <p class="text">Las chicas en camino a su presentación en el Teatro Gran Rex</p>
+              </div>
+            </div>
+            <div class="iconic-moment">
+              <img class="iconic-ph" src="echada.jfif" alt="Virginia es echada de Bandana">
+              <!---->
+              <div class="polaroid-text">
+                <p class="text">Virginia se entera que los productores la quieren sacar de Bandana</p>
+              </div>
+            </div>
+            <div class="iconic-moment">
+              <img class="iconic-ph" src="bandana-showmatch.jfif" alt="presentación de Bandana en Showmatch">
+              <!---->
+              <div class="polaroid-text">
+                <p class="text">Bandana se reune dando una presentación en ShowMatch</p>
+              </div>
+            </div>
+          </div>
+       </section>
+       <div class="divider"></div>
     </main>
     <footer id="tribute-footer">
       <p><em>Algunos hechos de la linea temporal fueron inventados para darle más contenido al proyecto.</em></p>
-      <p>Si te interesa saber los hechos reales pasa leer la <a href="https://es.wikipedia.org/wiki/Bandana_(banda)" target="_blank" class="wiki-link">wiki de Bandana</a>.</p>
+      <p>Si te interesa saber los hechos reales pasa leer la <a href="https://es.wikipedia.org/wiki/Bandana_(banda)" target="_blank" class="tribute-link">wiki de Bandana</a>.</p>
     </footer>
   </body>
 </html>
