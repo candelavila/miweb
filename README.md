@@ -9,3 +9,5 @@ De esta forma los elementos quedan bien acomodados.
 La página cuenta con una línea de tiempo y una galería de fotos con momentos icónicos.
 
 AVISO : Si ya conocías a Bandana vas a ver que algunos ítems/momentos icónicos son inventados. Esto fue con la intención de agregarle más contenido a la página.
+
+Sigue en edición.
